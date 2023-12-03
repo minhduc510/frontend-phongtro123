@@ -1,0 +1,21 @@
+.inputFile {
+  color: #fff;
+  cursor: pointer;
+  &::file-selector-button {
+    background-color: #fff;
+    color: #fff;
+    border: none;
+  }
+}
+
+.noticeItem {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(161 98 7);
+  }
+}

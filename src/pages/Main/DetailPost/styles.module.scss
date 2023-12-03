@@ -1,0 +1,19 @@
+.detailPost {
+  padding-top: 1rem;
+  .pagination {
+    position: absolute;
+    transform: translateX(-50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .btnDirection {
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    div {
+      cursor: pointer;
+    }
+  }
+}

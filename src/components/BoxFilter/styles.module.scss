@@ -1,0 +1,13 @@
+.item {
+  display: inline-block;
+  span {
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  &:hover {
+    span {
+      padding-left: 0.4rem;
+      color: #ff6600;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.wrapNewPost {
+  cursor: pointer;
+  &:hover {
+    p {
+      color: #ff6600;
+    }
+  }
+}

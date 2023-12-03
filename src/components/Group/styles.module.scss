@@ -1,0 +1,17 @@
+.group {
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  img {
+    transition: all 0.5s ease;
+  }
+  &:hover {
+    img {
+      transform: scale(1.04);
+    }
+    color: red;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    p {
+      color: #ff6600;
+    }
+  }
+}
